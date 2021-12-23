@@ -24,7 +24,6 @@ public class Dialogue : MonoBehaviour
     void Start()
     {
         //Making the additional buttons inactive until I need them later
-        Canvas.SetActive(false);
         dialogueOption2.SetActive(false);
         dialogueOption3.SetActive(false);
 
