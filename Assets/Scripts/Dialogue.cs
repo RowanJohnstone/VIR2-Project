@@ -50,7 +50,7 @@ public class Dialogue : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("Player entered the office");
-                Canvas.SetActive(true);
+                //Canvas.SetActive(true);
         }
     //cycles through the texts
     public void continueButton()
